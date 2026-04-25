@@ -53,3 +53,17 @@ body {
 .textarea:focus {
   border-color: rgb(255 255 255 / 0.35);
 }
+
+.premium-input {
+  width: 100%;
+  border-radius: 1rem;
+  border: 1px solid rgb(255 255 255 / 0.12);
+  background: #11100d;
+  padding: 0.75rem 1rem;
+  color: #f7f0e6;
+  outline: none;
+}
+
+.premium-input:focus {
+  border-color: #d8c08a;
+}

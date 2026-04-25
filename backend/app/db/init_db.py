@@ -30,7 +30,7 @@ def init_db():
                 full_name="Administrador OpsPulse",
                 email="admin@opspulsequintonil.com",
                 password_hash=hash_password("Admin12345!"),
-                role="superadmin",
+                role="master_admin",
                 is_active=True,
             )
             db.add(admin_user)
